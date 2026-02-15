@@ -107,3 +107,111 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 # Install ROS2 Humble
 sudo apt update
 sudo apt install ros-humble-desktop-full
+
+
+
+📚 Resources
+Official Documentation
+
+    ROS2 Humble Documentation
+
+    Nav2 Documentation
+
+    URDF Tutorial
+
+    TF2 Documentation
+
+ROS2 Learning
+
+    ROS2 Tutorials
+
+    ROS2 Style Guide
+
+    ROS2 CLI Tools
+
+Navigation
+
+    Nav2 Parameters
+
+    Costmap2D Documentation
+
+    AMCL Documentation
+
+C++ Resources
+
+    ROS2 C++ Style Guide
+
+    Modern C++ Features
+
+🤝 Contributing
+
+Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
+Contribution Tips
+
+    Start Small: Begin with beginner-level bugs
+
+    One Bug at a Time: Focus on fixing one issue per PR
+
+    Test Your Fix: Ensure the system builds and runs
+
+    Document Changes: Add comments explaining your fixes
+
+    Be Patient: Maintainers will review your PR as soon as possible
+
+Pull Request Checklist
+
+    PR title clearly describes the fix
+
+    Changes are limited to one bug/feature
+
+    Code follows ROS2 style guidelines
+
+    Comments added where necessary
+
+    Builds without errors
+
+    Tested with sample data
+
+    Updated documentation if needed
+
+📄 License
+
+This project is licensed under the Apache 2.0 License - see the LICENSE file for details.
+text
+
+Copyright 2026 Tejascodz
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+🎉 Acknowledgments
+
+    ROS2 Community - For creating an amazing robotics framework
+
+    Nav2 Developers - For the powerful navigation stack
+
+    Open Robotics - For advancing open-source robotics
+
+    All Contributors - Who take time to fix these bugs and improve the project
+
+⚠️ Disclaimer
+
+IMPORTANT: This code contains intentional errors for educational purposes. Do not use in production without proper testing and fixing. The bugs are designed to teach common ROS2 pitfalls and debugging techniques.
+<div align="center">
+🌟 If you found this project helpful, please give it a star! 🌟
+
+View Live Repository · Report Bug · Request Feature
+
+Happy Bug Hunting! 🐛🔍
+
+Remember: Every expert was once a beginner who fixed someone else's bugs.
+</div> ```
