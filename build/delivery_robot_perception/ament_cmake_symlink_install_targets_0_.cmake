@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/tejas/delivery_robot_ws/build/delivery_robot_perception/libobstacle_detection_lib.so" "/home/tejas/delivery_robot_ws/build/delivery_robot_perception/obstacle_detection_node" "TARGETS" "obstacle_detection_lib" "obstacle_detection_node" "DESTINATION" "lib/delivery_robot_perception")

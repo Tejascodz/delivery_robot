@@ -1,0 +1,266 @@
+[0.221s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.221s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75fc03d48a90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75fc03e49f00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75fc03e49f00>>)
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.556s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tejas/delivery_robot_ws'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_core) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_core) by extension 'ignore'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_core) by extension 'ignore_ament_install'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_core) by extensions ['colcon_pkg']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_core) by extension 'colcon_pkg'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_core) by extensions ['colcon_meta']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_core) by extension 'colcon_meta'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_core) by extensions ['ros']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_core) by extension 'ros'
+[0.585s] DEBUG:colcon.colcon_core.package_identification:Package 'src/delivery_robot_core' with type 'ros.ament_cmake' and name 'delivery_robot_core'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_description) by extension 'ignore'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_description) by extension 'ignore_ament_install'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_description) by extensions ['colcon_pkg']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_description) by extension 'colcon_pkg'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_description) by extensions ['colcon_meta']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_description) by extension 'colcon_meta'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_description) by extensions ['ros']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_description) by extension 'ros'
+[0.587s] DEBUG:colcon.colcon_core.package_identification:Package 'src/delivery_robot_description' with type 'ros.ament_cmake' and name 'delivery_robot_description'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_navigation) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_navigation) by extension 'ignore_ament_install'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_navigation) by extensions ['colcon_pkg']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_navigation) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_navigation) by extensions ['colcon_meta']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_navigation) by extension 'colcon_meta'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_navigation) by extensions ['ros']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_navigation) by extension 'ros'
+[0.590s] DEBUG:colcon.colcon_core.package_identification:Package 'src/delivery_robot_navigation' with type 'ros.ament_cmake' and name 'delivery_robot_navigation'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_perception) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_perception) by extension 'ignore_ament_install'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_perception) by extensions ['colcon_pkg']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_perception) by extension 'colcon_pkg'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_perception) by extensions ['colcon_meta']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_perception) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_perception) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/delivery_robot_perception) by extension 'ros'
+[0.593s] DEBUG:colcon.colcon_core.package_identification:Package 'src/delivery_robot_perception' with type 'ros.ament_cmake' and name 'delivery_robot_perception'
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.660s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tejas/ros2_ws/install
+[0.663s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 481 installed packages in /opt/ros/humble
+[0.667s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.790s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.790s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.790s] DEBUG:colcon.colcon_core.verb:Building package 'delivery_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tejas/delivery_robot_ws/build/delivery_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tejas/delivery_robot_ws/install/delivery_robot_description', 'merge_install': False, 'path': '/home/tejas/delivery_robot_ws/src/delivery_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.790s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_navigation' build argument 'cmake_args' from command line to 'None'
+[0.791s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_navigation' build argument 'cmake_target' from command line to 'None'
+[0.791s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.791s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.791s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.791s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.791s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.791s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.791s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.791s] DEBUG:colcon.colcon_core.verb:Building package 'delivery_robot_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tejas/delivery_robot_ws/build/delivery_robot_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation', 'merge_install': False, 'path': '/home/tejas/delivery_robot_ws/src/delivery_robot_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_perception' build argument 'cmake_args' from command line to 'None'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_perception' build argument 'cmake_target' from command line to 'None'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.792s] DEBUG:colcon.colcon_core.verb:Building package 'delivery_robot_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tejas/delivery_robot_ws/build/delivery_robot_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tejas/delivery_robot_ws/install/delivery_robot_perception', 'merge_install': False, 'path': '/home/tejas/delivery_robot_ws/src/delivery_robot_perception', 'symlink_install': False, 'test_result_base': None}
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_core' build argument 'cmake_args' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_core' build argument 'cmake_target' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_core' build argument 'cmake_clean_first' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_core' build argument 'cmake_force_configure' from command line to 'False'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_core' build argument 'ament_cmake_args' from command line to 'None'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'delivery_robot_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.794s] DEBUG:colcon.colcon_core.verb:Building package 'delivery_robot_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tejas/delivery_robot_ws/build/delivery_robot_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tejas/delivery_robot_ws/install/delivery_robot_core', 'merge_install': False, 'path': '/home/tejas/delivery_robot_ws/src/delivery_robot_core', 'symlink_install': False, 'test_result_base': None}
+[0.794s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.800s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.800s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tejas/delivery_robot_ws/src/delivery_robot_perception' with build type 'ament_cmake'
+[0.801s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tejas/delivery_robot_ws/src/delivery_robot_perception'
+[0.807s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.808s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.808s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.822s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tejas/delivery_robot_ws/src/delivery_robot_description' with build type 'ament_cmake'
+[0.823s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tejas/delivery_robot_ws/src/delivery_robot_description'
+[0.824s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.825s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.840s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tejas/delivery_robot_ws/src/delivery_robot_navigation' with build type 'ament_cmake'
+[0.841s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tejas/delivery_robot_ws/src/delivery_robot_navigation'
+[0.842s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.842s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tejas/delivery_robot_ws/build/delivery_robot_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tejas/delivery_robot_ws/src/delivery_robot_perception -DCMAKE_INSTALL_PREFIX=/home/tejas/delivery_robot_ws/install/delivery_robot_perception
+[0.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tejas/delivery_robot_ws/build/delivery_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tejas/delivery_robot_ws/src/delivery_robot_description -DCMAKE_INSTALL_PREFIX=/home/tejas/delivery_robot_ws/install/delivery_robot_description
+[0.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tejas/delivery_robot_ws/build/delivery_robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tejas/delivery_robot_ws/src/delivery_robot_navigation -DCMAKE_INSTALL_PREFIX=/home/tejas/delivery_robot_ws/install/delivery_robot_navigation
+[2.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tejas/delivery_robot_ws/build/delivery_robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tejas/delivery_robot_ws/src/delivery_robot_navigation -DCMAKE_INSTALL_PREFIX=/home/tejas/delivery_robot_ws/install/delivery_robot_navigation
+[2.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tejas/delivery_robot_ws/build/delivery_robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tejas/delivery_robot_ws/build/delivery_robot_navigation -- -j4 -l4
+[2.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tejas/delivery_robot_ws/build/delivery_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tejas/delivery_robot_ws/src/delivery_robot_description -DCMAKE_INSTALL_PREFIX=/home/tejas/delivery_robot_ws/install/delivery_robot_description
+[2.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tejas/delivery_robot_ws/build/delivery_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tejas/delivery_robot_ws/build/delivery_robot_description -- -j4 -l4
+[2.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tejas/delivery_robot_ws/build/delivery_robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tejas/delivery_robot_ws/build/delivery_robot_navigation -- -j4 -l4
+[2.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tejas/delivery_robot_ws/build/delivery_robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tejas/delivery_robot_ws/build/delivery_robot_navigation
+[2.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tejas/delivery_robot_ws/build/delivery_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tejas/delivery_robot_ws/build/delivery_robot_description -- -j4 -l4
+[2.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tejas/delivery_robot_ws/build/delivery_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tejas/delivery_robot_ws/build/delivery_robot_description
+[2.553s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(delivery_robot_navigation)
+[2.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tejas/delivery_robot_ws/build/delivery_robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tejas/delivery_robot_ws/build/delivery_robot_navigation
+[2.563s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation' for CMake module files
+[2.566s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation' for CMake config files
+[2.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('delivery_robot_navigation', 'cmake_prefix_path')
+[2.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/share/delivery_robot_navigation/hook/cmake_prefix_path.ps1'
+[2.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/share/delivery_robot_navigation/hook/cmake_prefix_path.dsv'
+[2.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/share/delivery_robot_navigation/hook/cmake_prefix_path.sh'
+[2.569s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/bin'
+[2.569s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/lib/pkgconfig/delivery_robot_navigation.pc'
+[2.570s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/lib/python3.10/site-packages'
+[2.570s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/bin'
+[2.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/share/delivery_robot_navigation/package.ps1'
+[2.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/share/delivery_robot_navigation/package.dsv'
+[2.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/share/delivery_robot_navigation/package.sh'
+[2.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/share/delivery_robot_navigation/package.bash'
+[2.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/share/delivery_robot_navigation/package.zsh'
+[2.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/share/colcon-core/packages/delivery_robot_navigation)
+[2.582s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(delivery_robot_navigation)
+[2.583s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation' for CMake module files
+[2.584s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation' for CMake config files
+[2.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('delivery_robot_navigation', 'cmake_prefix_path')
+[2.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/share/delivery_robot_navigation/hook/cmake_prefix_path.ps1'
+[2.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/share/delivery_robot_navigation/hook/cmake_prefix_path.dsv'
+[2.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/share/delivery_robot_navigation/hook/cmake_prefix_path.sh'
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/bin'
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/lib/pkgconfig/delivery_robot_navigation.pc'
+[2.593s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/lib/python3.10/site-packages'
+[2.594s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/bin'
+[2.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/share/delivery_robot_navigation/package.ps1'
+[2.598s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/share/delivery_robot_navigation/package.dsv'
+[2.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/share/delivery_robot_navigation/package.sh'
+[2.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/share/delivery_robot_navigation/package.bash'
+[2.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/share/delivery_robot_navigation/package.zsh'
+[2.607s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tejas/delivery_robot_ws/install/delivery_robot_navigation/share/colcon-core/packages/delivery_robot_navigation)
+[2.612s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(delivery_robot_description)
+[2.613s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_description' for CMake module files
+[2.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tejas/delivery_robot_ws/build/delivery_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tejas/delivery_robot_ws/build/delivery_robot_description
+[2.616s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_description' for CMake config files
+[2.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('delivery_robot_description', 'cmake_prefix_path')
+[2.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejas/delivery_robot_ws/install/delivery_robot_description/share/delivery_robot_description/hook/cmake_prefix_path.ps1'
+[2.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tejas/delivery_robot_ws/install/delivery_robot_description/share/delivery_robot_description/hook/cmake_prefix_path.dsv'
+[2.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejas/delivery_robot_ws/install/delivery_robot_description/share/delivery_robot_description/hook/cmake_prefix_path.sh'
+[2.622s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_description/bin'
+[2.622s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_description/lib/pkgconfig/delivery_robot_description.pc'
+[2.623s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_description/lib/python3.10/site-packages'
+[2.624s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_description/bin'
+[2.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_description/share/delivery_robot_description/package.ps1'
+[2.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tejas/delivery_robot_ws/install/delivery_robot_description/share/delivery_robot_description/package.dsv'
+[2.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_description/share/delivery_robot_description/package.sh'
+[2.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_description/share/delivery_robot_description/package.bash'
+[2.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_description/share/delivery_robot_description/package.zsh'
+[2.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tejas/delivery_robot_ws/install/delivery_robot_description/share/colcon-core/packages/delivery_robot_description)
+[2.634s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(delivery_robot_description)
+[2.635s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_description' for CMake module files
+[2.637s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_description' for CMake config files
+[2.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('delivery_robot_description', 'cmake_prefix_path')
+[2.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejas/delivery_robot_ws/install/delivery_robot_description/share/delivery_robot_description/hook/cmake_prefix_path.ps1'
+[2.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tejas/delivery_robot_ws/install/delivery_robot_description/share/delivery_robot_description/hook/cmake_prefix_path.dsv'
+[2.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tejas/delivery_robot_ws/install/delivery_robot_description/share/delivery_robot_description/hook/cmake_prefix_path.sh'
+[2.652s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_description/bin'
+[2.653s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_description/lib/pkgconfig/delivery_robot_description.pc'
+[2.653s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_description/lib/python3.10/site-packages'
+[2.654s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_description/bin'
+[2.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_description/share/delivery_robot_description/package.ps1'
+[2.661s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tejas/delivery_robot_ws/install/delivery_robot_description/share/delivery_robot_description/package.dsv'
+[2.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_description/share/delivery_robot_description/package.sh'
+[2.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_description/share/delivery_robot_description/package.bash'
+[2.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_description/share/delivery_robot_description/package.zsh'
+[2.669s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tejas/delivery_robot_ws/install/delivery_robot_description/share/colcon-core/packages/delivery_robot_description)
+[9.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tejas/delivery_robot_ws/build/delivery_robot_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tejas/delivery_robot_ws/src/delivery_robot_perception -DCMAKE_INSTALL_PREFIX=/home/tejas/delivery_robot_ws/install/delivery_robot_perception
+[9.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tejas/delivery_robot_ws/build/delivery_robot_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tejas/delivery_robot_ws/build/delivery_robot_perception -- -j4 -l4
+[113.414s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(delivery_robot_perception)
+[113.414s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_perception' for CMake module files
+[113.415s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_perception' for CMake config files
+[113.416s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_perception/bin'
+[113.416s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_perception/lib/pkgconfig/delivery_robot_perception.pc'
+[113.416s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_perception/lib/python3.10/site-packages'
+[113.417s] Level 1:colcon.colcon_core.environment:checking '/home/tejas/delivery_robot_ws/install/delivery_robot_perception/bin'
+[113.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_perception/share/delivery_robot_perception/package.ps1'
+[113.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tejas/delivery_robot_ws/build/delivery_robot_perception' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tejas/delivery_robot_ws/build/delivery_robot_perception -- -j4 -l4
+[113.420s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tejas/delivery_robot_ws/install/delivery_robot_perception/share/delivery_robot_perception/package.dsv'
+[113.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_perception/share/delivery_robot_perception/package.sh'
+[113.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_perception/share/delivery_robot_perception/package.bash'
+[113.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/tejas/delivery_robot_ws/install/delivery_robot_perception/share/delivery_robot_perception/package.zsh'
+[113.422s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tejas/delivery_robot_ws/install/delivery_robot_perception/share/colcon-core/packages/delivery_robot_perception)
+[113.436s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[113.436s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[113.436s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[113.436s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[113.449s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[113.450s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[113.450s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[113.480s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[113.480s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tejas/delivery_robot_ws/install/local_setup.ps1'
+[113.481s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tejas/delivery_robot_ws/install/_local_setup_util_ps1.py'
+[113.485s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tejas/delivery_robot_ws/install/setup.ps1'
+[113.486s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tejas/delivery_robot_ws/install/local_setup.sh'
+[113.487s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tejas/delivery_robot_ws/install/_local_setup_util_sh.py'
+[113.487s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tejas/delivery_robot_ws/install/setup.sh'
+[113.489s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tejas/delivery_robot_ws/install/local_setup.bash'
+[113.490s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tejas/delivery_robot_ws/install/setup.bash'
+[113.491s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tejas/delivery_robot_ws/install/local_setup.zsh'
+[113.492s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tejas/delivery_robot_ws/install/setup.zsh'

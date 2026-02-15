@@ -1,0 +1,125 @@
+[0.063s] Invoking command in '/home/tejas/delivery_robot_ws/build/delivery_robot_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tejas/delivery_robot_ws/src/delivery_robot_perception -DCMAKE_INSTALL_PREFIX=/home/tejas/delivery_robot_ws/install/delivery_robot_perception
+[0.225s] -- The C compiler identification is GNU 11.4.0
+[0.376s] -- The CXX compiler identification is GNU 11.4.0
+[0.384s] -- Detecting C compiler ABI info
+[0.585s] -- Detecting C compiler ABI info - done
+[0.599s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.600s] -- Detecting C compile features
+[0.601s] -- Detecting C compile features - done
+[0.614s] -- Detecting CXX compiler ABI info
+[0.853s] -- Detecting CXX compiler ABI info - done
+[0.863s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.864s] -- Detecting CXX compile features
+[0.864s] -- Detecting CXX compile features - done
+[0.870s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.200s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.380s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.481s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.496s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.518s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.540s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.568s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.654s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.666s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.972s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.045s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.152s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.173s] -- Looking for pthread.h
+[2.402s] -- Looking for pthread.h - found
+[2.403s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.638s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.641s] -- Found Threads: TRUE  
+[2.749s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.814s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.857s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.901s] -- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+[2.927s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.119s] -- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.147s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.150s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.150s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.157s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[3.241s] -- Checking for module 'eigen3'
+[3.292s] --   Found eigen3, version 3.4.0
+[3.424s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.424s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.513s] -- Checking for module 'flann'
+[3.570s] --   Found flann, version 1.9.1
+[3.713s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[3.714s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[6.562s] -- Checking for module 'libusb-1.0'
+[6.618s] --   Found libusb-1.0, version 1.0.25
+[6.750s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[6.752s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.947s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.198s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.213s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.225s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.439s] -- Found Qhull version 8.0.2
+[7.667s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.863s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[7.865s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[7.866s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[7.867s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[7.869s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[7.870s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[7.871s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[7.872s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[7.874s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[7.875s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[7.877s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[7.879s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[7.880s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[7.881s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[7.883s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[7.885s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[7.887s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[7.888s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[7.890s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[7.892s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[7.893s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[7.894s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[7.894s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[7.896s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[7.899s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[7.904s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[7.921s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[7.939s] -- Found OpenCV: /usr (found version "4.5.4") 
+[7.952s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.073s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.075s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.076s] -- Configured cppcheck include dirs: /home/tejas/delivery_robot_ws/src/delivery_robot_perception/include
+[8.076s] -- Configured cppcheck exclude dirs and/or files: 
+[8.078s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.078s] -- Configured cpplint exclude dirs and/or files: 
+[8.080s] -- Added test 'lint_cmake' to check CMake code style
+[8.082s] -- Added test 'uncrustify' to check C / C++ code style
+[8.082s] -- Configured uncrustify additional arguments: 
+[8.083s] -- Added test 'xmllint' to check XML markup files
+[8.086s] -- Configuring done
+[8.179s] -- Generating done
+[8.205s] -- Build files have been written to: /home/tejas/delivery_robot_ws/build/delivery_robot_perception
+[8.239s] Invoked command in '/home/tejas/delivery_robot_ws/build/delivery_robot_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tejas/delivery_robot_ws/src/delivery_robot_perception -DCMAKE_INSTALL_PREFIX=/home/tejas/delivery_robot_ws/install/delivery_robot_perception
+[8.241s] Invoking command in '/home/tejas/delivery_robot_ws/build/delivery_robot_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tejas/delivery_robot_ws/build/delivery_robot_perception -- -j4 -l4
+[8.357s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle_detection_lib.dir/src/obstacle_detection.cpp.o[0m
+[15.178s] [ 50%] [32m[1mLinking CXX shared library libobstacle_detection_lib.so[0m
+[109.059s] [ 50%] Built target obstacle_detection_lib
+[109.112s] [ 75%] [32mBuilding CXX object CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.o[0m
+[111.932s] In file included from [01m[K/home/tejas/delivery_robot_ws/src/delivery_robot_perception/src/obstacle_detection_node.cpp:1[m[K:
+[111.932s] [01m[K/home/tejas/delivery_robot_ws/src/delivery_robot_perception/include/delivery_robot_perception/obstacle_detection.hpp:72:41:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[111.932s]    72 |     rclcpp::Publisher<sensor_msgs::msg::[01;31m[KPointCloud2[m[K>::SharedPtr obstacle_points_pub_;
+[111.933s]       |                                         [01;31m[K^~~~~~~~~~~[m[K
+[111.933s] [01m[K/home/tejas/delivery_robot_ws/src/delivery_robot_perception/include/delivery_robot_perception/obstacle_detection.hpp:72:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[111.933s]    72 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2[01;31m[K>[m[K::SharedPtr obstacle_points_pub_;
+[111.933s]       |                                                    [01;31m[K^[m[K
+[111.933s] [01m[K/home/tejas/delivery_robot_ws/src/delivery_robot_perception/include/delivery_robot_perception/obstacle_detection.hpp:72:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[111.933s]    72 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::[01;31m[KSharedPtr[m[K obstacle_points_pub_;
+[111.934s]       |                                                       [01;31m[K^~~~~~~~~[m[K
+[111.934s]       |                                                                [32m[K;[m[K
+[111.939s] [01m[K/home/tejas/delivery_robot_ws/src/delivery_robot_perception/include/delivery_robot_perception/obstacle_detection.hpp:72:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kobstacle_points_pub_[m[K’ does not name a type
+[111.939s]    72 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr [01;31m[Kobstacle_points_pub_[m[K;
+[111.939s]       |                                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[112.599s] gmake[2]: *** [CMakeFiles/obstacle_detection_node.dir/build.make:76: CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.o] Error 1
+[112.599s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/obstacle_detection_node.dir/all] Error 2
+[112.599s] gmake: *** [Makefile:146: all] Error 2
+[112.616s] Invoked command in '/home/tejas/delivery_robot_ws/build/delivery_robot_perception' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tejas/delivery_robot_ws/build/delivery_robot_perception -- -j4 -l4

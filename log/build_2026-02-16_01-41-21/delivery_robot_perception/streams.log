@@ -1,0 +1,72 @@
+[0.136s] Invoking command in '/home/tejas/delivery_robot_ws/build/delivery_robot_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tejas/delivery_robot_ws/src/delivery_robot_perception -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tejas/delivery_robot_ws/install/delivery_robot_perception
+[0.531s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.063s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.284s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.645s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.680s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.784s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.985s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.085s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.413s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.440s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.970s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.413s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.605s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.713s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.821s] -- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+[3.866s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.453s] -- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.513s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.524s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.536s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[4.759s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.953s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[7.628s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.666s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.141s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.170s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.202s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.643s] -- Found Qhull version 8.0.2
+[9.110s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.530s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[9.586s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[9.700s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.912s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.930s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.932s] -- Configured cppcheck include dirs: /home/tejas/delivery_robot_ws/src/delivery_robot_perception/include
+[9.932s] -- Configured cppcheck exclude dirs and/or files: 
+[9.936s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.937s] -- Configured cpplint exclude dirs and/or files: 
+[9.944s] -- Added test 'lint_cmake' to check CMake code style
+[9.945s] -- Added test 'uncrustify' to check C / C++ code style
+[9.945s] -- Configured uncrustify additional arguments: 
+[9.946s] -- Added test 'xmllint' to check XML markup files
+[9.963s] -- Configuring done
+[10.945s] -- Generating done
+[10.998s] -- Build files have been written to: /home/tejas/delivery_robot_ws/build/delivery_robot_perception
+[11.045s] Invoked command in '/home/tejas/delivery_robot_ws/build/delivery_robot_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tejas/delivery_robot_ws/src/delivery_robot_perception -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tejas/delivery_robot_ws/install/delivery_robot_perception
+[11.052s] Invoking command in '/home/tejas/delivery_robot_ws/build/delivery_robot_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tejas/delivery_robot_ws/build/delivery_robot_perception -- -j4 -l4
+[11.268s] [35m[1mConsolidate compiler generated dependencies of target obstacle_detection_lib[0m
+[11.665s] [ 25%] [32m[1mLinking CXX shared library libobstacle_detection_lib.so[0m
+[194.757s] [ 50%] Built target obstacle_detection_lib
+[194.864s] [35m[1mConsolidate compiler generated dependencies of target obstacle_detection_node[0m
+[194.950s] [ 75%] [32mBuilding CXX object CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.o[0m
+[211.582s] In file included from [01m[K/home/tejas/delivery_robot_ws/src/delivery_robot_perception/src/obstacle_detection_node.cpp:1[m[K:
+[211.583s] [01m[K/home/tejas/delivery_robot_ws/src/delivery_robot_perception/include/delivery_robot_perception/obstacle_detection.hpp:72:41:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[211.583s]    72 |     rclcpp::Publisher<sensor_msgs::msg::[01;31m[KPointCloud2[m[K>::SharedPtr obstacle_points_pub_;
+[211.583s]       |                                         [01;31m[K^~~~~~~~~~~[m[K
+[211.584s] [01m[K/home/tejas/delivery_robot_ws/src/delivery_robot_perception/include/delivery_robot_perception/obstacle_detection.hpp:72:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[211.584s]    72 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2[01;31m[K>[m[K::SharedPtr obstacle_points_pub_;
+[211.584s]       |                                                    [01;31m[K^[m[K
+[211.593s] [01m[K/home/tejas/delivery_robot_ws/src/delivery_robot_perception/include/delivery_robot_perception/obstacle_detection.hpp:72:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[211.594s]    72 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::[01;31m[KSharedPtr[m[K obstacle_points_pub_;
+[211.594s]       |                                                       [01;31m[K^~~~~~~~~[m[K
+[211.594s]       |                                                                [32m[K;[m[K
+[211.607s] [01m[K/home/tejas/delivery_robot_ws/src/delivery_robot_perception/include/delivery_robot_perception/obstacle_detection.hpp:72:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kobstacle_points_pub_[m[K’ does not name a type
+[211.608s]    72 | rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr [01;31m[Kobstacle_points_pub_[m[K;
+[211.608s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[211.608s] 
+[213.209s] gmake[2]: *** [CMakeFiles/obstacle_detection_node.dir/build.make:76: CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.o] Error 1
+[213.211s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/obstacle_detection_node.dir/all] Error 2
+[213.211s] gmake: *** [Makefile:146: all] Error 2
+[213.222s] Invoked command in '/home/tejas/delivery_robot_ws/build/delivery_robot_perception' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tejas/delivery_robot_ws/build/delivery_robot_perception -- -j4 -l4

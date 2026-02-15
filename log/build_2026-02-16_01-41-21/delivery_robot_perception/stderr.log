@@ -1,0 +1,18 @@
+In file included from [01m[K/home/tejas/delivery_robot_ws/src/delivery_robot_perception/src/obstacle_detection_node.cpp:1[m[K:
+[01m[K/home/tejas/delivery_robot_ws/src/delivery_robot_perception/include/delivery_robot_perception/obstacle_detection.hpp:72:41:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+   72 |     rclcpp::Publisher<sensor_msgs::msg::[01;31m[KPointCloud2[m[K>::SharedPtr obstacle_points_pub_;
+      |                                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/tejas/delivery_robot_ws/src/delivery_robot_perception/include/delivery_robot_perception/obstacle_detection.hpp:72:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   72 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2[01;31m[K>[m[K::SharedPtr obstacle_points_pub_;
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/tejas/delivery_robot_ws/src/delivery_robot_perception/include/delivery_robot_perception/obstacle_detection.hpp:72:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   72 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::[01;31m[KSharedPtr[m[K obstacle_points_pub_;
+      |                                                       [01;31m[K^~~~~~~~~[m[K
+      |                                                                [32m[K;[m[K
+[01m[K/home/tejas/delivery_robot_ws/src/delivery_robot_perception/include/delivery_robot_perception/obstacle_detection.hpp:72:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kobstacle_points_pub_[m[K’ does not name a type
+   72 | rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr [01;31m[Kobstacle_points_pub_[m[K;
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/obstacle_detection_node.dir/build.make:76: CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/obstacle_detection_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

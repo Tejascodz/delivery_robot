@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7a602983c6f0c021e2d1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "delivery_robot_perception",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "delivery_robot_perception_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-delivery_robot_perception_uninstall-7c307ff854add653a535.json",
+					"name" : "delivery_robot_perception_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_detection_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_detection_lib-ac9321b2292b3ebf49c3.json",
+					"name" : "obstacle_detection_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_detection_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_detection_node-c74acb36a3c0a037d20a.json",
+					"name" : "obstacle_detection_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-809fbffa0df34debb728.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tejas/delivery_robot_ws/build/delivery_robot_perception",
+		"source" : "/home/tejas/delivery_robot_ws/src/delivery_robot_perception"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

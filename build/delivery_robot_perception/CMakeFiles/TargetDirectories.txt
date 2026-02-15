@@ -1,0 +1,11 @@
+/home/tejas/delivery_robot_ws/build/delivery_robot_perception/CMakeFiles/uninstall.dir
+/home/tejas/delivery_robot_ws/build/delivery_robot_perception/CMakeFiles/delivery_robot_perception_uninstall.dir
+/home/tejas/delivery_robot_ws/build/delivery_robot_perception/CMakeFiles/obstacle_detection_lib.dir
+/home/tejas/delivery_robot_ws/build/delivery_robot_perception/CMakeFiles/obstacle_detection_node.dir
+/home/tejas/delivery_robot_ws/build/delivery_robot_perception/CMakeFiles/test.dir
+/home/tejas/delivery_robot_ws/build/delivery_robot_perception/CMakeFiles/edit_cache.dir
+/home/tejas/delivery_robot_ws/build/delivery_robot_perception/CMakeFiles/rebuild_cache.dir
+/home/tejas/delivery_robot_ws/build/delivery_robot_perception/CMakeFiles/list_install_components.dir
+/home/tejas/delivery_robot_ws/build/delivery_robot_perception/CMakeFiles/install.dir
+/home/tejas/delivery_robot_ws/build/delivery_robot_perception/CMakeFiles/install/local.dir
+/home/tejas/delivery_robot_ws/build/delivery_robot_perception/CMakeFiles/install/strip.dir

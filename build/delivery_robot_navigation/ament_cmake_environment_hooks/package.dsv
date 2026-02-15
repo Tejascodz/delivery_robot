@@ -1,0 +1,4 @@
+source;share/delivery_robot_navigation/local_setup.bash
+source;share/delivery_robot_navigation/local_setup.dsv
+source;share/delivery_robot_navigation/local_setup.sh
+source;share/delivery_robot_navigation/local_setup.zsh

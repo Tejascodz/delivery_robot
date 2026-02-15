@@ -1,0 +1,2 @@
+source;share/delivery_robot_navigation/environment/ament_prefix_path.sh
+source;share/delivery_robot_navigation/environment/path.sh
